@@ -1,13 +1,13 @@
-# js-lab-163
-### Lab 163 ES6: Object destructuring1
-จงเขียน Object destructuring โดยกำหนดให้
-- ตัวแปร name เก็บค่า name property
-- ตัวแปร age เก็บค่า years property
-- ตัวแปร isAdmin เก็บค่า isAdmin property หากไม่มีค่าให้ default value เป็น false
+# js-lab-16ภ
+### Lab 164 ES6: ฟังก์ชัน topSalaries(salaries)
+จงเขียนฟังก์ชัน topSalaries(salaries) เพื่อ return ชื่อคนที่มี salary สูงสุด
+- ถ้า salaries เป็น empty object ให้ return null
+- ถ้ามีคนที่ได้ salary มากสุดให้ return ชื่อคนใดคนหนึ่ง
 
 ```JavaScript
-let user = {
-  name: 'John',
-  years: 27
+let salaries = {
+  John: 100,
+  Pete: 300,
+  Mary: 250
 };
 ```
